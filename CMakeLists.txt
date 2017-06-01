@@ -11,7 +11,7 @@ ExternalProject_Add(HTSLIB
         PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/build
         STAMP_DIR ${CMAKE_CURRENT_SOURCE_DIR}/build/stamp
         GIT_REPOSITORY https://github.com/samtools/htslib.git
-        GIT_TAG "master"
+        GIT_TAG "1.4.1"
 
         UPDATE_COMMAND ""
 
